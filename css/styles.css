@@ -7,19 +7,26 @@ red: #e74c3c*/
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Berkshire+Swash|Cookie|Give+You+Glory|Merienda|Tangerine');
 
-body {
-  background: url('../images/mobile-holiday.png');
+/*body {
+  background: url('../images/holiday2.png');
   background-size: contain;
-  background-attachment: fixed;
-}
+  background-repeat: no-repeat;
+
+}*/
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'fredericka the great', cursive;
 }
 
-section {
+.section {
   height: 50%;
   background: #e74c3c;
+  margin-top: -30px;
+}
+
+.mobile-background {
+  background: url('../images/holiday2.png');
+  background-size: cover;
 }
 
 .background-div {
@@ -61,12 +68,14 @@ section {
 
 .img {
   display: block;
-  margin: 10% auto;
+  margin: auto;
+  padding: 10%;
   width: 50%;
 }
 
 .top-img {
   margin-top: 0px;
+  padding-top: 0px;
 }
 
 .section-p {
@@ -102,8 +111,16 @@ section {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  section {
+  .mobile-background {
+    background-image: none;
+  }
+
+  .section {
     height: 50%;
+  }
+
+  .top-img {
+  padding-top: 10px;
   }
 
   .background-div {
