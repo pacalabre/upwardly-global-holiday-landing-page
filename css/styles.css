@@ -52,7 +52,7 @@ section {
   text-align: center;
   font-family: 'henny penny', cursive;
   font-family: 'Quintessential', cursive;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 2em;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -87,11 +87,23 @@ section {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (min-width: 500px) {
+  .main-headline {
+    font-size: 40px;
+  }
+
+  .section-p {
+    font-size: 30px;
+    padding-top: 10%;
+  }
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
   section {
-    height: 70%;
+    height: 50%;
   }
 
   .background-div {
@@ -99,18 +111,27 @@ section {
   }
 
   .main-headline {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .section-p {
-    font-size: 40px;
-    padding-top: 5%;
+    font-size: 30px;
+    padding-top: 10%;
   }
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .main-headline {
+    font-size: 50px;
+  }
+
+  .section-p {
+    font-size: 35px;
+    padding-top: 7%;
+  }
 
 }
 
