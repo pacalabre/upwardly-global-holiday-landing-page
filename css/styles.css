@@ -1,0 +1,121 @@
+/*hex colors:
+green: #2ecc71
+red: #e74c3c*/
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Henny+Penny|Quintessential');
+@import url('https://fonts.googleapis.com/css?family=Quintessential');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Berkshire+Swash|Cookie|Give+You+Glory|Merienda|Tangerine');
+
+body {
+  background: url('../images/mobile-holiday.png');
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'fredericka the great', cursive;
+}
+
+section {
+  height: 50%;
+  background: #e74c3c;
+}
+
+.background-div {
+  top: 0px;
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  display: none;
+}
+
+.nav {
+  width: 100%;
+  background: black;
+  position: fixed;
+  padding: 10px;
+  margin-top: -100px;
+}
+
+.nav-img {
+  height: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+.red-word{
+  color: #e74c3c;
+}
+
+.main-headline {
+  text-align: center;
+  font-family: 'henny penny', cursive;
+  font-family: 'Quintessential', cursive;
+  font-size: 50px;
+  margin-top: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  color: #2ecc71;
+}
+
+.img {
+  display: block;
+  margin: 10% auto;
+  width: 50%;
+}
+
+.top-img {
+  margin-top: 0px;
+}
+
+.section-p {
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+  padding: 5%;
+  font-size: 22px;
+  vertical-align: middle;
+  padding-top: 15%;
+}
+
+.holidays {
+  color: #e74c3c;
+  margin-top: .5em;
+  font-size: 40px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  section {
+    height: 70%;
+  }
+
+  .background-div {
+    display: block;
+  }
+
+  .main-headline {
+    font-size: 50px;
+  }
+
+  .section-p {
+    font-size: 40px;
+    padding-top: 5%;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
