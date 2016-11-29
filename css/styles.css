@@ -1,5 +1,5 @@
 /*hex colors:
-green: #2ecc71
+green: #008C31
 red: #e74c3c*/
 
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Henny+Penny|Quintessential');
@@ -19,9 +19,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .section {
-  height: 60%;
+  height: 40%;
   background: #e74c3c;
   margin-top: -30px;
+}
+
+.section-green {
+  background: #008C31;
 }
 
 .mobile-background {
@@ -65,7 +69,8 @@ h1,h2,h3,h4,h5,h6 {
   margin-top: 2em;
   padding-top: 5em;
   padding-bottom: .5em;
-  color: #2ecc71;
+  color: white;
+  /*color: #2ecc71;*/
 }
 
 .img {
@@ -119,7 +124,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .section {
-    height: 60%;
+    height: 50%;
   }
 
   .top-img {
@@ -136,7 +141,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .section-p {
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 10%;
   }
 
