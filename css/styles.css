@@ -131,15 +131,16 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .top-img {
-  padding: 20px 10px 10px 10px;
-  }
+    padding: 20px 10px 10px 10px;
+    margin-bottom: 1em;
+    }
 
   .img {
     width: 50%;
   }
 
   .nav {
-    padding: 10px;
+    /*padding: 10px;*/
     margin-top: -100px;
   }
 
@@ -149,7 +150,7 @@ h1,h2,h3,h4,h5,h6 {
 
   .main-headline {
     font-size: 40px;
-    padding-top: .5em;
+    padding-top: 2em;
     color: white;
   }
 
@@ -181,10 +182,16 @@ h1,h2,h3,h4,h5,h6 {
     padding-top: 7%;
   }
 
+  .img {
+    width: 40%;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
+@media (min-width: 1400px) {
+  .img {
+    width: 30%;
+  }
 }
 
