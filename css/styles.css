@@ -132,7 +132,7 @@ h1,h2,h3,h4,h5,h6 {
 
   .top-img {
     padding: 20px 10px 10px 10px;
-    margin-bottom: 1em;
+    margin-bottom: .8em;
     }
 
   .img {
@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6 {
 
   .main-headline {
     font-size: 40px;
-    padding-top: 2em;
+    padding-top: .8em;
     color: white;
   }
 
