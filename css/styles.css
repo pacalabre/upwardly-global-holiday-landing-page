@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0 auto;
 }
 
-.red-word{
+.red-word {
   color: #e74c3c;
 }
 
@@ -69,8 +69,8 @@ h1,h2,h3,h4,h5,h6 {
   margin-top: 2em;
   padding-top: 5em;
   padding-bottom: .5em;
-  color: white;
-  /*color: #2ecc71;*/
+  color: #008C31;
+  color: #e74c3c;
 }
 
 .img {
@@ -142,6 +142,11 @@ h1,h2,h3,h4,h5,h6 {
   .main-headline {
     font-size: 40px;
     padding-top: .5em;
+    color: white;
+  }
+
+  .red-word {
+    color: #e74c3c;
   }
 
   .section-p {
