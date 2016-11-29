@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .mobile-background {
-  background: url('../images/holiday2.png');
+  background: url('../images/test2.jpeg');
   background-size: cover;
   position: relative;
 }
@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Quintessential', cursive;
   font-size: 40px;
   margin-top: 2em;
-  padding-top: .5em;
+  padding-top: 5em;
   padding-bottom: .5em;
   color: #2ecc71;
 }
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
   color: #e74c3c;
   margin: 0px;
   font-size: 40px;
-  padding: 70px;
+  padding: 5em 70px 70px 70px;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -132,11 +132,16 @@ h1,h2,h3,h4,h5,h6 {
 
   .main-headline {
     font-size: 40px;
+    padding-top: .5em;
   }
 
   .section-p {
     font-size: 30px;
     padding-top: 10%;
+  }
+
+  .holidays {
+    padding-top: .5em;
   }
 
 }
