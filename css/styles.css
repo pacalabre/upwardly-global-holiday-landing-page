@@ -37,6 +37,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .nav {
   width: 100%;
+  right: 0;
   background: black;
   position: fixed;
   padding: 10px;
@@ -72,6 +73,7 @@ h1,h2,h3,h4,h5,h6 {
   margin: auto;
   display: block;
   width: 80%;
+  padding-bottom: 40%;
 }
 
 .img {
@@ -106,8 +108,15 @@ h1,h2,h3,h4,h5,h6 {
 /* No media query since this is the default in Bootstrap */
 
 @media (min-width: 500px) {
+
+  .nav {
+    margin-top: -100px;
+  }
+
   .main-headline {
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 2em;
+    color: white;
   }
 
   .section {
@@ -117,6 +126,10 @@ h1,h2,h3,h4,h5,h6 {
   .section-p {
     font-size: 28px;
     padding-top: 10%;
+  }
+
+  .red-word {
+    color: #e74c3c;
   }
 }
 
@@ -132,32 +145,33 @@ h1,h2,h3,h4,h5,h6 {
     height: 400px;
   }
 
+  .main-headline {
+    padding-top: 1.5em;
+  }
+
   .section-one {
-   height: 700px;
+   height: 100%;
   }
 
   .top-img {
     padding: 20px 10px 10px 10px;
     margin-bottom: .8em;
-    }
+  }
+
+  .vid {
+    padding-bottom: 0px;
+  }
 
   .img {
     width: 50%;
   }
 
   .nav {
-    /*padding: 10px;*/
     margin-top: -100px;
   }
 
   .background-div {
     display: block;
-  }
-
-  .main-headline {
-    font-size: 40px;
-    padding-top: .8em;
-    color: white;
   }
 
   .red-word {
